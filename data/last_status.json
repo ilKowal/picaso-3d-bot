@@ -1,0 +1,54 @@
+{
+    "filename": "",
+    "progress": 0.0,
+    "remaining_time_sec": 0,
+    "temperature": {
+        "nozzle_1": 35.85177230834961,
+        "nozzle_2": 36.143959045410156,
+        "chamber": 37.24413299560547,
+        "bed": 34.6024284362793,
+        "radiator": 34.800228118896484
+    },
+    "logs": [
+        {
+            "code": "4001",
+            "timestamp": 1750065575
+        },
+        {
+            "code": "a000",
+            "timestamp": 1750063032
+        },
+        {
+            "code": "4001",
+            "timestamp": 1750058262
+        },
+        {
+            "code": "a000",
+            "timestamp": 1750054415
+        },
+        {
+            "code": "f800",
+            "timestamp": 1550139426
+        },
+        {
+            "code": "4001",
+            "timestamp": 1749833194
+        },
+        {
+            "code": "1801",
+            "timestamp": 1749831621
+        },
+        {
+            "code": "0801",
+            "timestamp": 1749831389
+        },
+        {
+            "code": "a000",
+            "timestamp": 1749827688
+        },
+        {
+            "code": "4001",
+            "timestamp": 1749824609
+        }
+    ]
+}

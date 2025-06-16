@@ -1,0 +1,23 @@
+{
+    "bot_token": "Paste your Telegram API Token here",
+    "ip": "Your printer IP",
+    "port": 54321,
+    "ignore_list": [
+        "M31",
+        "M30",
+        "M3",
+        "M1",
+        "M2",
+        "M7"
+    ],
+    "once_list": [
+        "M50N1",
+        "M50N2"
+    ],
+    "refresh_list": [
+        "CE16Z",
+        "CE115Z",
+        "CE115PH",
+        "M40"
+    ]
+}
