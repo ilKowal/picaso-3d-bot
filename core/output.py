@@ -1,8 +1,7 @@
 import json
-from core.storage import load_events_description, update_events_description, Event, EventDescription
+from core.storage import Event, EventDescription
 from core.storage_cache import description_cache
 from typing import NamedTuple
-from datetime import datetime
 from core.printer.parser import PrinterStatus
 
 class SplitTime(NamedTuple):

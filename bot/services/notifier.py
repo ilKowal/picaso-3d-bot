@@ -3,7 +3,7 @@ from typing import Optional
 from bot.keyboards.main_menu import get_main_keyboard
 
 bot_instance: Optional[Bot] = None
-chat_id: Optional[int] = None  # chat_id должен быть получен при /start
+chat_id: Optional[int] = None 
 
 def setup(bot: Bot, target_chat_id: int):
     global bot_instance, chat_id
