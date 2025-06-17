@@ -6,7 +6,7 @@ from core.storage import save_status, load_previous_status, EventDescription
 from core.output import take_description
 from core.status import get_status
 from datetime import datetime
-from bot.notifier import send_message
+from bot.services.notifier import send_message
 
 config =  read_config()
 PRINTER_IP = config.ip

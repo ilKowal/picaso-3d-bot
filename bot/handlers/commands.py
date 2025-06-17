@@ -5,7 +5,7 @@ from core.storage import load_previous_status
 from core.output import take_status, take_progress, take_temperature, take_time, take_log
 from core.printer.poller import PRINTER_IP, PRINTER_PORT, REQUEST_BYTES
 from bot.keyboards.main_menu import get_main_keyboard
-from bot.notifier import setup
+from bot.services.notifier import setup
 
 router = Router()
 

@@ -16,9 +16,8 @@ class EventDescriptionCache:
         return None
 
     def add_unknown_code(self, code: str):
-        # Добавление с пустыми полями, только hex-код
         new_desc = EventDescription(hex_code=code)
         update_events_description(new_desc)
-        self._events = load_events_description()  # обновить кэш
+        self._events = load_events_description()
 
 description_cache = EventDescriptionCache()

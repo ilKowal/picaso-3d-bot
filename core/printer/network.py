@@ -7,7 +7,6 @@ def send_request(ip : str, port : int, request_data : bytes, timeout: float = 5.
     if response:
         return response
 
-    # Если по IP не сработало, пробуем через broadcast
     ip, response = _broadcast_request(port, request_data, timeout)
     if ip and response:
         update_ip(ip)

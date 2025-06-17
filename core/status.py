@@ -9,7 +9,6 @@ def get_status(ip : str, port : int, request_data : bytes) -> PrinterStatus:
         print('Ошибка получения данных от принтера')
         return None
     try:
-        # return None
         status: PrinterStatus = parse_printer_data(raw_data)
         save_status(status)
         return status
